@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Belajar Menggunakan Form
+        </title>
+    </head>
+    <body>
+        <h2>
+            Belajar Menggunakan Form Materi Placeholder
+        </h2>
+        <br/>
+        <p>
+            Masukkan Data Anda
+        </p>
+        <form action="placeholder.php" method="post">
+            ID Pegawai :
+            <input type="text" name="idpegawai" placeholder="Tulis ID Pegawai disini budak corporate..." required/>
+            <br/>
+            <br/>
+            Nama :
+            <input type="text" name="nama" placeholder="Tulis Namamu disini bujang..." required/>
+            <br/>
+            <br/>
+            Alamat :
+            <textarea name="alamat">
+            </textarea>
+            <br/><br/>
+            <input type="submit" value="kirim" />
+        </form>
+    </body>
+</html>
+
+  <!--- CATATAN 
+      File ini berisi function placeholder yang dimana berfungsi sebagai teks pemandu user dalam mengisi textbox 
+      untuk Rumus menggunakan placeholder:
+         <input type="text" name="idpegawai" placeholder="Tulis ID Pegawai disini budak corporate..." required/>
+         *** required untuk kewajiban user untuk mengisi textbox
+         -->
