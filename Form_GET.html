@@ -1,0 +1,41 @@
+<!---FORM_GET.HTML -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar Menggunakan Form</title>
+    </head>
+    <body>
+        <h2>Belajar Menggunakan Form dengan Metode GET</h2>
+        <br/>
+        <p>
+            Masukkan Data Anda
+        </p>
+        <form action="Form_get.php" method="get">
+            ID Pegawai :
+            <input type="text" name="idpegawai" />
+            <br/>
+            <br/>
+            Nama :
+            <input type="text" name="nama" />
+            <br/>
+            <br/>
+            Alamat :
+            <textarea name="alamat">
+            </textarea>
+            <br/><br/>
+            <input type="submit" value="kirim" />
+        </form>
+    </body>
+</html>
+
+    <!--- CATATAN 
+        File ini harus terkoneksi pada file form_post.php dikarenakan file ini berisi 
+    cara mengkoneksikan file html ke file php dengan Metode GET 
+    untuk menjalankan file ini dengan menggunakan Localhost
+    Rumus Menggunakan Metode GET di HTML
+        <form action="nama_file_yang_dituju.php" method="get">
+        dibawahnya berisi pemanggilan inputan dari HTML yang ingin di tampilkan
+
+PERBEDAAN METODE GET DAN POST
+        Metode GET tidak bisa menerima jumlah nilai/data maksimal yang dikirim hanya sebatas 1024 karakter saja
+        Metode POST bisa memproses nilai/data yang lebih panjang -->
