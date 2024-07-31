@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Menambah Data Pegawai
+        </title>
+    </head>
+    <body>
+        <p>
+            <h1>
+                Tambah Data Pegawai
+            </h1>
+            <br/>
+            <p><b>Masukkan Data Pegawai di dalam Form</b></p>
+            <form action="tambah_db_pegawai.php" method="post">
+                ID pegawai : <input type="text" name="idpegawai" required/>
+                <br/><br/>
+                Nama : <input type="text" name="nama" required/>
+                <br/><br/>
+                Alamat :
+                <br/>
+                <textarea name="alamat" required></textarea>
+                <br/><br/>
+                Tanggal Lahir :
+                <input type="date" name="tgl_lahir" required/>
+                <br/><br/>
+                <input type="submit" value="Kirim"/>
+                <input type="reset" value="Hapus"/>
+            </form>
+        </p>
+    </body>
+</html>
